@@ -1,1 +1,1 @@
-This repository contains my first webpage assignment.
+This repository holds the webpage assignment due Feb. 1, 2015.

@@ -4,11 +4,79 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<title>David's First Programming Assignment</title>
+		
+		<style>
+		/* 
+		 * define a class called "soylentGreen"
+		 * changed the color of the text and background and added a border
+		 */
+			.soylentGreen{
+				color:#8BA870;
+				border:5px dotted #333333;
+				background-color: gray;
+			}
+		/*
+		 * define a class called "aquaMan"
+		 * changed the color of the text, and added a border and drop shadow
+		 */	
+			.aquaMan{
+				color:#8BA870;
+				border:2px dashed #37BC61;
+				box-shadow: 5px 5px 5px;
+			}
+			
+		</style>
+		
+		
 	</head>
 	<body>
 		<h1>I'd rather do this assignment than watch the Super Bowl.</h1>
 		<!-- Adding another header tag -->
 		<h2>This header uses the h2 tag.</h2>
+		
+		<!-- Make a div with red text inside it -->
+		
+		<div class="soylentGreen">This color is called soylent green.</div>
+		
+		<div class="aquaMan">This color is called aqua man.</div>
+		
+		<script>
+			/*
+			 * define some variables
+			 */
+			var myNumber = 25;
+			var myString = "This is a string.";
+			var myBool = true;
+			
+			
+			
+			var myArray = [2,3,54,11,78];
+			var myObject = {aKey:"aValue",
+							key2:"value2"};
+			/*
+			 * different types of objects
+			 */
+			console.log(myObject);
+			myObject.aKey = "newValue";
+			console.log(myObject);
+			/*
+			 * periods/dots are used to signify Key
+			 */
+			var numberString = 15;
+			console.log(numberString+2);
+			
+			/*
+			 * deleted quotation marks around 15 for it to add up to 17
+			 */
+			
+			var myRandoBucket;
+			/*
+			 * placeholder
+			 */
+			console.log(myRandoBucket);
+			
+		</script>
+		
 	</body>
 </html>
 
